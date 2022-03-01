@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Manrope ;
+    src: url(../assets/fonts/static/Manrope-Regular.ttf);
+}
+
+*{
+ font-family: Manrope , sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 550px;
+    height: 400px;
+    margin: 75px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: rgb(70, 70, 70) 0px 5px 100px ;
+}
+
+.Pageviews{
+    position: absolute;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.views{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+.priceNUM{
+    position: absolute;
+    margin: 40px;
+    right: 0px;
+}
+
+.prises{
+    font-size: 2.4rem;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 5px;
+    color: #293356;
+}
+
+p{
+    color: rgba(42, 48, 70, 0.72);
+}
+
+.Billing{
+    margin-right: 10px;
+}
+
+.dateCHECK{
+    position: absolute;
+    top: 185px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount{
+    background-color: rgba(255, 209, 149, 0.5);
+    color: orange;
+    border-radius: 30px;
+    font-size: .75rem;
+    font-weight: bold;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.rangeNUM{
+    background-color: royalblue;
+}
+
+ul{
+    list-style: none;
+   position: absolute;
+    bottom: 25px;
+    left: 50px;
+    line-height: 2rem;
+}
+
+li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cheack{
+    margin-right: 15px;
+}
+
+.line{
+    position: absolute;
+    width: 100%;
+    bottom: 150px;
+    height: 1px;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.start{
+    text-decoration: none;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;    
+    height: 40px;
+    border-radius: 50px;
+    background-color: #293356;
+    position: absolute;
+    right: 50px;
+    bottom: 55px;
+}
+
+.start:hover{
+    color: white;
+}
+
+@media only screen and (max-width:700px){
+    #root{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 570px;
+        width: 85%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .Pageviews{
+        top: 0;
+    }
+    .slidecontainer{
+        top: 0;
+    }
+    .priceNUM{
+        right: unset;
+        top: 140px;
+    }
+    .dateCHECK{
+        top: 270px;
+        right: unset;
+        font-size: .75rem;
+    }
+    .line{
+        top: 260px;
+    }
+    ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: unset;
+    bottom: 110px;
+    }
+    .start{
+        right: unset;
+        bottom: 40px;
+    }
+    .SpanDis{
+    display: none;
+    }
+}
