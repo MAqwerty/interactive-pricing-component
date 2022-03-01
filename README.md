@@ -1,5 +1,4 @@
-	
-![alt text](https:///raw.github.com/active-states.jpg)
+![header image](https://raw.github.com/MAqwerty/interactive-pricing-component/master/active-states.jpg)
 
 # Getting Started with Create React App
 
