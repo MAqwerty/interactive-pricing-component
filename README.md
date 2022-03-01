@@ -1,5 +1,5 @@
 	
-![alt text](https://github.com/active-states.jpg)
+![alt text](https:///raw.github.com/active-states.jpg)
 
 # Getting Started with Create React App
 
